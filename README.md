@@ -29,7 +29,17 @@ Transient hostname: localhost <br />
   tar -zxf postfix-3.5.8.tar.gz <br />
   cd postfix-3.5.8 <br />
   
-  
-  
+Set path:  
+  [root@localhost postfix-3.5.8]# echo $MANPATH <br />
+/home/xjxie/install_package/postfix-3.5.8/man:/home/xjxie/install_package/postfix-3.5.8/man: <br />
+
+
+[root@localhost postfix-3.5.8]# make makefiles<br />
+make -f Makefile.in MAKELEVEL= Makefiles<br />
+(echo "# Do not edit -- this file documents how Postfix was built for your machine."; /bin/sh makedefs) >makedefs.tmp<br />
+No <db.h> include file found.<br />
+Install the appropriate db*-devel package first.<br />
+make: *** [Makefiles] Error 1<br />
+make: *** [makefiles] Error 2<br />
   
  
