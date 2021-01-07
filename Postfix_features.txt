@@ -1,0 +1,4 @@
+Postfix process runs with the least amount of privilege necessary to get its particular job done.
+Attacks that use signals, shared memory, open files, and other types of interprocess communication are essentially useless against Postfix.
+Postfix avoids using fixed-size buffers for dynamic data, making a successful buffer overflow attack highly unlikely.
+Postfix processes are configured to use a limited amount of memory, so they do not grow uncontrollably from an onslaught of messages.
