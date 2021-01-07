@@ -22,7 +22,7 @@ Transient hostname: localhost
   install wget: 
   yum install wget
   
-  download Postfix package: 
+  download Postfix package: //
   wget http://cdn.postfix.johnriley.me/mirrors/postfix-release/official/postfix-3.5.8.tar.gz
   
   unpack package:
